@@ -83,5 +83,11 @@ class Program
         Console.WriteLine(pageText.GetType());
 
         #endregion
+        #region Tenth Question
+        int copies = 100;
+        Object obj2 = copies;
+        int unboxedCopies = (int)obj2;
+
+        #endregion
     }
 }
