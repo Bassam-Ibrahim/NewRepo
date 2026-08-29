@@ -77,6 +77,11 @@ class Program
         }
 
         #endregion
+        #region Ninth Question
+        int pagex = 464;
+        string pageText = pagex.ToString();
+        Console.WriteLine(pageText.GetType());
 
+        #endregion
     }
 }
