@@ -58,6 +58,11 @@ class Program
         int price2 = (int)price;
 
         #endregion
+        #region Seventh Question
+        string pagesText = "464";
+        int pagesText2 = Convert.ToInt32(pagesText);
+
+        #endregion
 
     }
 }
