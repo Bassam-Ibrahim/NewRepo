@@ -28,7 +28,11 @@ class Program
         Console.WriteLine(book.Equals(book));
         Console.WriteLine(book.GetHashCode());
         Console.WriteLine(book.GetType());
-
+        #endregion
+        #region Third Question
+        /* int pages = "464"; is a string and cannot initlize it to an int;
+        int pages = 464;
+        */
 
         #endregion
     }
