@@ -53,5 +53,11 @@ class Program
         int pages = 300;
         double pages2 = pages;
         #endregion
+        #region Sixth Question
+        double price = 49.99;
+        int price2 = (int)price;
+
+        #endregion
+
     }
 }
