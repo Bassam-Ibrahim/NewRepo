@@ -35,5 +35,23 @@ class Program
         */
 
         #endregion
+        #region Fourth Question
+        try
+        {
+            int zero = 0;
+            int result = 10 / zero;
+
+        }
+        catch (DivideByZeroException)
+        {
+            Console.WriteLine("Cannot divide by zero");
+        }
+        finally { Console.WriteLine("Done"); }
+
+        #endregion
+        #region Fifth Question
+        int pages = 300;
+        double pages2 = pages;
+        #endregion
     }
 }
